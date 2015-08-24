@@ -3,7 +3,7 @@
 # Example .gitignore files: https://github.com/github/gitignore
 
 
-platforms
+*/build/
 
 ## music
 *.ogg
@@ -14,7 +14,9 @@ platforms
 *test*/
 test.*
 
-
+## avoid documents
+doc/
+*/doc/
 
 
 ### /Users/hnw/.gitignore-boilerplates/Global/Windows.gitignore
