@@ -1,9 +1,14 @@
 window.addEventListener("load", function () {
+    console.log("COMPLETE load!!");
     var eleBatteryInfo = document.getElementById("battery-info");
     var testText = "testtesttest";
 
     eleBatteryInfo.textContent = testText;
     eleBatteryInfo.innerHTML = "hell";
+}, false);
+
+window.addEventListener("deviceready", function () {
+    console.log("COMPLETE deviceready!!");
 }, false);
 
 
